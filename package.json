@@ -1,0 +1,30 @@
+{
+  "name": "gulshan-banquet-hall",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/check-images.mjs && node scripts/build.mjs && node scripts/verify-dist.mjs",
+    "preview": "node scripts/preview.mjs",
+    "typecheck": "node scripts/typecheck.mjs",
+    "test": "node scripts/test-unit.mjs",
+    "images:check": "node scripts/check-images.mjs",
+    "images:convert": "node tools/convert-images.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "^0.28.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.0"
+  }
+}
