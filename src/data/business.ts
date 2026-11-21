@@ -42,8 +42,8 @@ export const business = {
 
   /** TODO(management): real photos in /public/images (see README there), use JPG, e.g. '/images/hero-desktop.jpg'. */
   hero: {
-    desktop: '/images/hero-desktop.jpg',
-    mobile: '/images/hero-mobile.jpg',
+    desktop: null,
+    mobile: null,
     alt: 'Gulshan Banquet Hall interior prepared for a celebration',
   },
 
